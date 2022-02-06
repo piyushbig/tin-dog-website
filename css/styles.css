@@ -1,0 +1,213 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+h1, h2, h3 ,h4{
+  font-family: "Montserrat-bold";
+
+
+}
+
+
+
+.big-heading{
+  color: #fff;
+  font-family: "Montserrat-black";
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-top: 20px;
+
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.btn{
+  margin: 5% 3% 5% 0;
+}
+.container-fluid{
+  padding: 6% 15%;
+
+}
+
+/*title section*/
+#title{
+  text-align: left;
+  background-color:#ff4c68;
+}
+
+#title .container-fluid{
+  padding: 3%  15% 6%;
+}
+
+
+
+
+
+
+
+
+
+/* navigation bar*/
+
+.navbar{
+
+
+  padding:0 0  ;
+
+}
+
+.navbar-brand{
+
+  font-family: "ubantu";
+  font-size: 2.5rem;
+  font-weight: bold;
+
+
+}
+
+.nav-item{
+  padding:0 18px 0 60px;
+
+
+}
+
+.nav-link{
+  font-family: "Montserrat-light";
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.phone{
+
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+
+
+}
+
+#features{
+
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+
+}
+.feature-title{
+  font-size: 1.5rem;
+}
+.feature-box{
+
+  padding:5%;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+/*testonommial secton*/
+
+#testimonials{
+
+
+  background-color: #ef8172;
+  color: #fff;
+
+}
+
+.testimonials-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/*preessss section*/
+
+#press{
+  background-color: #ef8172;
+
+  padding-bottom: 3%;
+}
+
+.press-logo{
+   width: 15%;
+   margin:20px 20px 15px:
+}
+
+/*pricing*/
+#pricing{
+  padding:100px;
+
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+#cta{
+
+  font-family: "Montserrat-black";
+  background-color: #ff4c68;
+
+  color: #fff;
+}
+
+
+.cta-button1{
+
+
+
+}
+
+.cta-button2{
+  margin-top: 7px;
+  margin-left: 15px;
+  color: black;
+}
+
+#footer{
+  background-color: #fff;
+
+  text-align: center;
+
+}
+
+.social-icon{
+  margin: 20px 10px;
+}
+
+@media (max-width:990px){
+
+  #title{
+    text-align:center;
+
+  }
+
+  .phone{
+    position: static;
+    transform: rotate(0);
+
+  }
+}
+
+/*call of action*/
